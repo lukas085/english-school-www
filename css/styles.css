@@ -418,20 +418,33 @@ nav ul li a.active::after {
 
 .contact-card {
     background-color: var(--light-bg);
-    padding: 20px;
+    padding: 25px 20px;
     border-radius: var(--border-radius);
     text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-card i {
     font-size: 2rem;
     color: var(--primary-color);
     margin-bottom: 15px;
+    display: block;
 }
 
 .contact-card h3 {
     margin-bottom: 10px;
     font-size: 1.2rem;
+    width: 100%;
+}
+
+.contact-card p {
+    margin: 0;
+    width: 100%;
+    word-break: break-word;
 }
 
 .contact-form {
